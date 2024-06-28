@@ -1,0 +1,9 @@
+project link: https://www.youtube.com/watch?v=rXvQj-Z0v0s&list=PLlz74hqeU4crptfegXcqx2tLK8ewLX_Ub&index=4
+
+npm create vite@latest client
+
+npm install
+
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init
