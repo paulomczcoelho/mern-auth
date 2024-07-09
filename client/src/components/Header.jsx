@@ -13,7 +13,7 @@ export default function Header() {
           <Link to="/">
             <li>Home</li>
           </Link>
-          <Link to="/About">
+          <Link to="/about">
             <li>About</li>
           </Link>
           <Link to="/profile">
@@ -21,8 +21,7 @@ export default function Header() {
               <img
                 src={currentUser.profilePicture}
                 alt="profile"
-                className="h-7 w-7 rounded-full 
-                object-cover"
+                className="h-7 w-7 rounded-full object-cover"
               />
             ) : (
               <li>Sign In</li>
